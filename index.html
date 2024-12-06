@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sitedecon</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Page de Connexion -->
+  <div id="login-container">
+    <h1>Connexion</h1>
+    <form id="login-form">
+      <label for="username">Identifiant :</label>
+      <input type="text" id="username" placeholder="Entrez votre identifiant" required>
+
+      <label for="password">Mot de passe :</label>
+      <input type="password" id="password" placeholder="Entrez votre mot de passe" required>
+
+      <button type="submit" id="login-btn">Se connecter</button>
+      <p id="error-message"></p>
+    </form>
+  </div>
+
+  <!-- Page principale (masquée au départ) -->
+  <div id="main-container" class="hidden">
+    <header>
+      <h1>Découvrez des Personnalités</h1>
+      <p>Cliquez sur une personnalité pour en savoir plus.</p>
+    </header>
+
+    <main>
+      <section id="personnalites">
+        <h2>Liste des Personnalités</h2>
+        <div id="list-container"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2024 - Présentation de connard</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

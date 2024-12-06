@@ -1,0 +1,194 @@
+/* Styles généraux */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Fond sombre */
+    color: #e0e0e0; /* Texte clair */
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  /* Page de connexion */
+  #login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  #login-container h1 {
+    color: #bb86fc; /* Violet clair */
+  }
+  
+  #login-form {
+    background: #1e1e1e; /* Fond des formulaires */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+  }
+  
+  #login-form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  
+  #login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+  }
+  
+  #login-form input:focus {
+    outline: none;
+    border-color: #bb86fc; /* Violet clair en focus */
+  }
+  
+  #login-btn {
+    background-color: #bb86fc; /* Bouton violet */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  #login-btn:hover {
+    background-color: #3700b3; /* Violet foncé au survol */
+  }
+  
+  #error-message {
+    color: #cf6679; /* Rouge clair pour erreurs */
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    background-color: #1e1e1e; /* Fond sombre du header */
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  header h1 {
+    margin: 0;
+    color: #bb86fc; /* Titre violet clair */
+  }
+  
+  /* Section des personnalités */
+  #personnalites {
+    text-align: center;
+    margin: 20px auto;
+  }
+  
+  #list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .personnalite-card {
+    background-color: #1e1e1e; /* Fond sombre des cartes */
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s;
+  }
+  
+  .personnalite-card:hover {
+    transform: scale(1.05);
+    background-color: #2c2c2c; /* Fond plus clair au survol */
+  }
+  
+  .personnalite-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .personnalite-card h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #bb86fc; /* Texte violet */
+  }
+  
+  .personnalite-card p {
+    font-size: 14px;
+    color: #ccc; /* Texte gris */
+  }
+  
+  /* Page dédiée pour une personnalité */
+  #dedicated-page {
+    text-align: center;
+    padding: 20px;
+    background-color: #121212; /* Fond principal */
+    color: #e0e0e0; /* Texte clair */
+  }
+  
+  #dedicated-page header {
+    margin-bottom: 20px;
+  }
+  
+  #dedicated-page img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  #dedicated-page h1 {
+    font-size: 24px;
+    color: #bb86fc; /* Titre violet */
+  }
+  
+  #dedicated-page p {
+    font-size: 16px;
+    color: #cccccc; /* Texte gris clair */
+    margin-bottom: 30px;
+  }
+  
+  #retour-btn {
+    background-color: #bb86fc; /* Bouton violet */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  #retour-btn:hover {
+    background-color: #3700b3; /* Violet foncé au survol */
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1e1e1e; /* Fond sombre */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.7);
+    color: #ccc; /* Texte clair */
+    font-size: 14px;
+  }
+  
