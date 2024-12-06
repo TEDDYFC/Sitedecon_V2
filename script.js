@@ -13,7 +13,7 @@ const personnalitesEnsemble1 = [
       details: "Cette personne n'est pas un génie, il est passé à deux point de lêtre c'est dommage pour lui, il n'est pas assez intéligent comparé au créateur de ce site. Une information top secrete est que tous les matins il retrouve LIlian tous les jours à la même heure au toilette."
     },
     { 
-      nom: "Lilain", 
+      nom: "Lilian", 
       description: "Aucune information n'est disponible.", 
       image: "assets/Lilian.jpg", 
       details: "Cette personne est un phantome inconnu, nous suspectons qu'il est rechercher par la police, c'est pour cela qu'il a peur que des innfromations fuites sur lui.La seul information disponible c'est qu'il est pd avec Alexian( c'est eput être pour cela qu'il à peur)."
@@ -21,8 +21,20 @@ const personnalitesEnsemble1 = [
     { 
       nom: "Esteban", 
       description: "Homo et non sapiens", 
-      image: "assets/Lilian.jpg", 
+      image: "assets/esteban.jpg", 
       details: "C'est un hommo comme les autres. Il pense être inteligent cependant il l'est moins que le créateur de ce site, de plus il a eu 10/20 en histoire"
+    },
+    { 
+      nom: "Theodor", 
+      description: "Rappeur connu, ou pas", 
+      image: "assets/makan.webp", 
+      details: "Se fait passer pour un chanteur célèbre, cepnandant on sait tous qu'il est éclaté au sous-sol. Aurmis ce désagrément, c'est une personne toute à fait respectable si on oubli le fait qu'il se balade avec un ordinateur explosé qui tient grace à du scoch."
+    },
+    { 
+      nom: "Lilian", 
+      description: "L'autiste & L'albinos", 
+      image: "assets/LilianAlbinos.jpg", 
+      details: "Que dire sur le plus grand autiste de cette planête. Il c'est trompé de vie, il est nait albinos et en plus il est con, pour ne rien arranger il fait parti d'une secte qui pratique le régime albinos ( un régime durant lequel il ne peut pas boire la journée, bizarement ca me rappelle un certain continent de l'autre côté de la méditéranné). Aurmis cela il est le GOAT"
     },
     { 
       nom: "Raphaël", 
