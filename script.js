@@ -27,7 +27,7 @@ const personnalitesEnsemble1 = [
     { 
       nom: "Mathieu", 
       description: "Le cum", 
-      image: "assets/Mathieu.jpg", 
+      image: "assets/Mathieu.png", 
       details: "Le cum originel, une quantité tu as peur"
     },
     { 
