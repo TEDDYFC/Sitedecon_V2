@@ -20,9 +20,9 @@ const personnalitesEnsemble1 = [
     },
     { 
       nom: "Esteban", 
-      description: "Le CUM", 
+      description: "homo et non sapiens", 
       image: "assets/esteban.jpg", 
-      details: "Le cum originel, une qunatité tu as peur"
+      details: "Je sais pas quoi dire"
     },
         { 
       nom: "Mathieu", 
