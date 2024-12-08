@@ -26,9 +26,9 @@ const personnalitesEnsemble1 = [
     },
         { 
       nom: "Mathieu", 
-      description: "Homo et non sapiens", 
+      description: "Le cum", 
       image: "assets/Mathieu.jpg", 
-      details: "C'est un hommo comme les autres. Il pense être inteligent cependant il l'est moins que le créateur de ce site, de plus il a eu 10/20 en histoire"
+      details: "Le cum originel, une quantité tu as peur"
     },
     { 
       nom: "Theodor", 
