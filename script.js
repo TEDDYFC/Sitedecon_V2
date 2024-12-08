@@ -22,7 +22,7 @@ const personnalitesEnsemble1 = [
       nom: "Esteban", 
       description: "homo et non sapiens", 
       image: "assets/esteban.jpg", 
-      details: "C'est un hommo comme les autres. Il pense être inteligent cependant il l'est moins que le créateur de ce site, de plus il a eu 10/20 en histoire
+      details: "C'est un hommo comme les autres. Il pense être inteligent cependant il l'est moins que le créateur de ce site, de plus il a eu 10/20 en histoire"
     },
     { 
       nom: "Mathieu", 
